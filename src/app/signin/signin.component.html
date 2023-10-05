@@ -1,0 +1,53 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<body>
+<div class="container">
+  <div class="row">
+  <form action="/action_page.php" class="col-xs-12 col-sm-12 col-md-12" [formGroup]="RegForm"(ngSubmit)="ReginUser()">
+  <h2>Sign up Form</h2>
+  
+  <div class="form-group">
+      <input type="text" class="form-control" id="name" placeholder="Enter Name *" name="name" [(ngModel)]="User.name"required formControlName="user">
+    </div>
+    <span style="color: red;" *ngIf="user&& user.invalid && user.touched"> user field is not valid</span>
+	<div class="form-group">
+      <input type="number" maxlength="10" class="form-control" id="surname" placeholder="Enter Mobile No *" name="mobileno" [(ngModel)]="User.ph" required formControlName="contact_no">
+    </div>
+    <span style="color: red;" *ngIf="contact_no&& contact_no.invalid && contact_no.touched">Enter valid mobile no</span>
+    	<div class="form-group">
+      <input type="email" class="form-control" id="email" placeholder="Enter email *" name="email" [(ngModel)]="User.email" required formControlName="email">
+    </div>    
+    <span style="color: red;" *ngIf="email&& email.invalid && email.touched">Enter valid E-mail</span>
+	<div class="form-group">
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password *" name="pwd" [(ngModel)]="User.p"required formControlName="password">
+   </div>
+   <span style="color: red;" *ngIf="password && password.invalid && password.touched"> password should contain minimum 7 characters</span>
+   <div class="form-group">
+      <input type="password" class="form-control" id="pwd" placeholder="Repeat password *" name="Rptpwd" [(ngModel)]="User.cp" required formControlName="repassword">
+   </div>
+   <span style="color: red;" *ngIf="repassword && repassword.invalid && repassword.touched">Enter correct password</span><br>
+  
+    
+  
+
+    <input type="submit" value="Signup" class="btn btn-success my-2 signup" (click)="Insert()" [disabled]="RegForm.invalid">
+    <input type="submit" value="Login" class="btn btn-success my-2 login" (click)="onLoginClick()">
+    <div class="alert alert-success my-2" *ngIf="!(SuccessMsg =='')" >{{SuccessMsg}}</div>
+    <div class="alert alert-danger my-2" *ngIf="!(ErrorMsg =='')">{{ErrorMsg}}</div>
+
+
+    
+
+ 
+  </form>
+  </div>
+</div></body>
+
+
+
+
+
+  
+      

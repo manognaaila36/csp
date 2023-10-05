@@ -1,0 +1,67 @@
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    
+    <script>
+        $(".input_text").focus(function(){
+    $(this).prev('.fa').addclass('glowIcon')
+})
+$(".input_text").focusout(function(){
+    $(this).prev('.fa').removeclass('glowIcon')
+})
+Footer
+navigation
+Terms
+    </script>
+  <body>
+    <div class="login_form_container">
+      <div class="login_form">
+        
+        <h2>Login</h2>
+        <form [formGroup]="loginForm"(ngSubmit)="loginUser()">
+        <div class="input_group">
+          <i class="fa fa-user"></i>
+          <input type="text" placeholder="Username" class="input_text" autocomplete="off" formControlName="user" [(ngModel)]="Roll"><br><br><br>
+          
+        </div>
+        <p class="u" style="color: red;" *ngIf="user && user.invalid && user.touched"> User field is not valid</p>
+        <div class="input_group password">
+          <i class="fa fa-unlock-alt"></i>
+          <input type="password" placeholder="Password" class="input_text " autocomplete="off" formControlName="password"><br>
+          
+        </div>
+        <span style="color: red;" *ngIf="password && password.invalid && password.touched"> Password field is not valid</span>
+        <div class="button_group" id="login_button">
+        <input type="submit" [value]="'login'" class="btn" (click)="Read(Roll)">
+
+        <div id="g_id_onload"
+     data-client_id="167158227757-nkeb6tq03qn6n4mqdp9gpe2h5dthkbmb.apps.googleusercontent.com"
+     data-context="signin"
+     data-login_uri="localhost:4200/api/home"
+     data-auto_select="true"
+     data-itp_support="true">
+</div>
+     <div class="g_id_signin"
+data-type="standard"
+data-shape="pill"
+data-theme="filled_blue"
+data-text="signin_with"
+data-size="large"
+data-logo_alignment="left">
+
+</div>
+
+          <p *ngIf="Results.length!=0 && GotResult"><button class="btn" [disabled]="loginForm.invalid" (click)="onHomeClick()">login</button></p>
+        </div>
+        
+        <div class="fotter">
+          
+        </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="java.js"></script>

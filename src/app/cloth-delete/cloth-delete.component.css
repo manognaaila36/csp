@@ -1,0 +1,413 @@
+body{
+  background-color: black;
+  min-height: 100%;
+  min-width: 100%;
+  overflow-x: hidden;
+
+
+}
+.navbar-brand{
+  color: aliceblue;
+}
+h1{
+  color: aliceblue;
+}
+.nav-link{
+  color: aliceblue;
+}
+.hhclogo{
+  height: 112px;
+  width: 130px;
+  margin-left: 20px;
+  
+}
+.hhclogo2{
+  height: 120px;
+  width: 130px;
+  float: right;
+  margin-right: 0px;
+}
+
+.helping{
+  margin-left: 30px;
+  margin-right: -100px;
+  font-size: 60px;
+  margin-top: -50px;
+}
+.hands{
+  margin-left: -147px;
+  margin-top: 70px;
+  font-size: 40px;
+}
+.club{
+  margin-left: 10px;
+  margin-top: 70px;
+  font-size: 40px;
+  
+}
+
+
+.button{
+  float: left;
+  background-color: black;
+  color: white;
+  transition: box-shadow 450ms ease-in-out, color 250ms ease-in-out;
+  position: left;
+  margin-top: -70px;
+  margin-left: 50px;
+  width: 130px;
+  
+}
+.button:hover{
+  color: black;
+  outline: 0;
+  background-color: yellow;
+  box-shadow: 0 0 10px 10px rgb(41, 20, 231);
+}
+
+.button2{
+  float: left;
+  background-color: black;
+  color: white;
+  transition: box-shadow 450ms ease-in-out, color 250ms ease-in-out;
+  position: left;
+  margin-top: -70px;
+  margin-left: 30px;
+  width: 200px;
+  float: right;
+  margin-right: -20px;
+  
+}
+.button2:hover{
+  color: black;
+  outline: 0;
+  background-color: yellow;
+  box-shadow: 0 0 10px 10px rgb(41, 20, 231);
+}
+
+
+.button3{
+  float: left;
+  background-color: black;
+  color: white;
+  transition: box-shadow 450ms ease-in-out, color 250ms ease-in-out;
+  position: left;
+  margin-top: -70px;
+  margin-left: 50px;
+  width: 180px;
+  
+}
+.button3:hover{
+  color: black;
+  outline: 0;
+  background-color: yellow;
+  box-shadow: 0 0 10px 10px rgb(41, 20, 231);
+}
+
+
+.button4{
+  float: left;
+  background-color: black;
+  color: white;
+  transition: box-shadow 450ms ease-in-out, color 250ms ease-in-out;
+  position: left;
+  margin-top: -70px;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 200px;
+  
+}
+.button4:hover{
+  color: black;
+  outline: 0;
+  background-color:yellow;
+  box-shadow: 0 0 10px 10px rgb(41, 20, 231);
+}
+
+.button9{
+  float: right;
+  background-color: black;
+  color: white;
+  transition: box-shadow 450ms ease-in-out, color 250ms ease-in-out;
+  position: left;
+  margin-top: -70px;
+  
+ 
+  width: 150px;
+  
+}
+.button9:hover{
+  color: black;
+  outline: 0;
+  background-color:yellow;
+  box-shadow: 0 0 10px 10px rgb(41, 20, 231);
+}
+
+
+.button5{
+  float: left;
+  background-color:black;
+  color: aliceblue;
+  transition: box-shadow 450ms ease-in-out, color 250ms ease-in-out;
+  position: left;
+  margin-top: 20px;
+  margin-left: -800px;
+  width: 200px;
+  margin-bottom: -120px;
+  margin-right: -100px;
+  
+}
+.button5:hover{
+  color: black;
+  outline: 0;
+  background-color: rgb(231, 40, 180);
+  box-shadow: 0 0 10px 10px rgb(41, 20, 231);
+}
+
+
+.button6{
+  float: left;
+  background-color: black;
+  color: white;
+  transition: box-shadow 450ms ease-in-out, color 250ms ease-in-out;
+  position: left;
+  margin-top: 20px;
+  margin-left: -580px;
+  width: 220px;
+  margin-bottom: -120px;
+  
+}
+.button6:hover{
+  color: black;
+  outline: 0;
+  background-color: rgb(231, 40, 180);
+  box-shadow: 0 0 10px 10px rgb(41, 20, 231);
+}
+
+.button7{
+  float: left;
+  background-color: black;
+  color: white;
+  transition: box-shadow 450ms ease-in-out, color 250ms ease-in-out;
+  position: left;
+  margin-top: 20px;
+  margin-right: 80px;
+  margin-left: -330px;
+  width: 200px;
+  margin-bottom: -120px;
+}
+.button7:hover{
+  color: black;
+  outline: 0;
+  background-color: rgb(231, 40, 180);
+  box-shadow: 0 0 10px 10px rgb(41, 20, 231);
+}
+.button8{
+  float: left;
+  background-color: black;
+  color: white;
+  transition: box-shadow 450ms ease-in-out, color 250ms ease-in-out;
+  position: left;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: -100px;
+  width: 210px;
+  margin-bottom: -120px;
+}
+.button8:hover{
+  color: black;
+  outline: 0;
+  background-color: rgb(231, 40, 180);
+  box-shadow: 0 0 10px 10px rgb(41, 20, 231);
+}
+
+.d1{
+  margin-left: -800px;
+  margin-top: 55px;
+  width: 200px;
+}
+
+.d2{
+  margin-left: -580px;
+  margin-top: 55px;
+  width: 220px;
+}
+
+.d3{
+  margin-left: -330px;
+  margin-top: 55px;
+  width: 200px;
+}
+.d4{
+  margin-left: -100px;
+  margin-top: 55px;
+  width: 210px;
+}
+
+.wrapper {
+width:100%;
+overflow:hidden;
+  color: aliceblue;
+}
+
+
+.col1, .col2, .col3, .cols {
+float:left;
+}
+.col1 {
+margin:0 6px;
+width:264px;
+position:relative
+}
+.col2 {
+margin:0 6px;
+width:560px;
+position:relative
+}
+/* index.html */
+/* index-1.html */
+/* index-2.html */
+/* index-3.html */
+/* index-4.html */
+#page3 .col1 {
+width:870px
+}
+/* index-5.html */
+#page4 .box2 .col1 {
+width:870px
+}
+/* index-6.html */
+
+
+#content {
+}
+.pad_left1 {
+padding-left:26px
+}
+.pad_left2 {
+padding-left:36px
+}
+.pad_bot1 {
+padding-bottom:14px
+}
+.pad_bot2 {
+padding-bottom:4px
+}
+.marg_right1 {
+margin-right:7px
+}
+.box1 {
+background:url(../../assets/bg_box1.jpg) top center no-repeat #dad6cc ;
+border-top:5px solid black;
+padding:15px 30px 29px;
+  margin-right: 100px;
+  margin-left: 100px;
+  
+}
+.box1 strong {
+color:black;
+}
+.box1 figure {
+box-shadow:0 0 3px white;
+-moz-box-shadow:0 0 3px white;
+-webkit-box-shadow:0 0 3px black;
+position:relative
+}
+.box2 {
+background:#0e0c0a;
+padding:25px 30px 32px;
+  color: black;
+}
+.box2 .line1, .box2 .line2 {
+background-image:url(../../assets/line_vert2.gif)
+}
+#page4 .box2 {
+margin-top:7px;
+padding-top:30px;
+padding-bottom:28px
+}
+
+
+
+.quot {
+margin-top:17px;
+float:left;
+margin-left:94px;
+padding:12px 0 17px 41px;
+font-style:italic;
+background:url(../../assets/quot1.png) 0 0 no-repeat;
+width:570px;
+  color: aliceblue;
+}
+.quot img {
+display:inline-block;
+margin:4px 0 0 9px;
+  color: aliceblue;
+}
+#page2 .quot {
+padding-bottom:7px
+}
+
+
+
+.dropdown-item{
+  color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+.s_no{
+    color: aliceblue;
+    font-size: 25px;
+}
+
+
+body{
+    background-image: url("../../assets/blur.jpg");
+
+   
+    /* Full height */
+
+    overflow: hidden;
+    
+    
+    
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .form{
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    margin-top: -550px;
+  }
+  
+  .btn{
+    width: 120px;
+    height: 50px;
+    background-color: rgb(231, 40, 180);
+    font-size: 25px;
+
+}
+.btn:hover{
+    color: white;
+    outline: 0;
+    background-color: rgb(231, 40, 180);
+    box-shadow: 0 0 20px 20px rgb(41, 20, 231);
+}
+
+
+.alert{
+  color: #0e0c0a;
+  font-size: 20px;
+}
